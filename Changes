@@ -4,8 +4,8 @@ Revision history for Perl extension Bundle::NiceSleep.
 	- original version; created by h2xs 1.21 with options
 		-AXcfn Bundle::NiceSleep
 0.10  Fri Feb 22 2002
-    - got it working, tested on linux 
-0.50  Fri Feb 22 2002
-    - bumped version to match Proc::NiceSleep (from the same
-      author)
+    - got it working, tested on linux, first release to CPAN
+0.11  Fri Feb 22 2002
+    - added Sys::CpuLoad to bundle
+    - redid README based on pod
 

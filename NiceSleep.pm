@@ -1,15 +1,17 @@
 package Bundle::NiceSleep;
 
-our $VERSION = '0.10';	# matches version of Proc::NiceSleep 
+our $VERSION = '0.11';	
 
-# Preloaded methods go here.
+# as it just so turns out, the magic perdocs below actually contain
+# the bundle info. Majique!
 
 1;
+
 __END__
 
 =head1 NAME
 
-Bundle::NiceSleep - Perl Bundle for NiceSleep-related functionality.
+Bundle::NiceSleep - NiceSleep-related functionality.
 
 =head1 SYNOPSIS
 
@@ -17,16 +19,17 @@ Bundle::NiceSleep - Perl Bundle for NiceSleep-related functionality.
 
 =head1 CONTENTS
 
-Proc::NiceSleep		
+Proc::NiceSleep         - sleep nice & smart
 
-Proc::ProcessTable
+Proc::ProcessTable      - get info about the procs
 
-Proc::Swarm
+Proc::Queue             - queue up processes, similar to below
 
-Proc::Queue
+Proc::Swarm             - handle a swarm of procs, similar to above 
 
-Time::HiRes
+Sys::CpuLoad            - allows simple reading of loads
 
+Time::HiRes             - hi-res time() and sleep() 
 
 =head1 DESCRIPTION
 
@@ -39,7 +42,7 @@ Josh Rabinowitz, E<lt>joshr-proc-nicesleep@joshr.comE<gt>
 =head1 SEE ALSO
 
 L<Proc::NiceSleep>, L<Time::HiRes>, L<Proc::ProcessInfo>, L<Proc::Swarm>, 
-L<Proc::Queue>.
+L<Proc::Queue>, L<Sys::CpuLoad>.
 
 =head1 LICENSE
 
@@ -47,3 +50,4 @@ Copyright (c) 2002 Josh Rabinowitz, All Right Reserved. Licensed the same as
 Perl itself.
 
 =cut
+
